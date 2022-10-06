@@ -1,0 +1,104 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  min-height: 100vh;
+  width: 100vw;
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  min-width: fit-content;
+}
+
+header nav {
+  display: flex;
+  box-shadow: 0px 6px 22px -1px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+h1 {
+  font-size: 0;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+ul > li {
+  list-style: none;
+  margin: 2rem;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.buy-btn {
+  font-size: 2rem;
+  border-radius: 0 40px 40px 40px;
+  padding: 1rem;
+  border: 5px solid orange;
+  background-color: inherit;
+}
+
+main {
+  padding: 2rem;
+}
+
+h2 {
+  padding: 0 2rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: orangered;
+}
+
+.description {
+  display: flex;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.description .closer-look {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.description .view-all {
+  font-size: 2rem;
+  border-radius: 0px 40px 40px 40px;
+  padding: 1rem 1.5rem;
+  margin: 0.5rem;
+  color: white;
+  border: none;
+  background-color: orangered;
+}
+
+.image-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.image-gallery .pet-photo {
+  width: 100%;
+  height: auto;
+  min-width: 300px;
+  min-height: 250px;
+  max-width: 600px;
+  border-radius: 50px;
+  padding: 0.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
