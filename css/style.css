@@ -101,4 +101,10 @@ h2 {
   padding: 0.5rem;
 }
 
+@media (max-width: 900px) {
+  .image-gallery {
+    flex-direction: column;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
